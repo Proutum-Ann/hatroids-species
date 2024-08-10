@@ -518,6 +518,7 @@ const inventory = async (options) => {
     let preParam = `?${cardKey}=`;
 
     // Put in alphabetical order
+    sheetArray.sort((a, b) => a.username.toLowerCase().localeCompare(b.username.toLowerCase()));
 
     // Add card links to the remaining array
     for (var i in sheetArray) { sheetArray[i].cardlink = baseURL + preParam + sheetArray[i][cardKey]; }
