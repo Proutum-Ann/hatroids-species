@@ -15,7 +15,7 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
+  title: "Hatroids",
   url: "https://proutum-ann.github.io/hatroids-species/",
   description: `A tool for organizing small ARPGs and species.`
 }
